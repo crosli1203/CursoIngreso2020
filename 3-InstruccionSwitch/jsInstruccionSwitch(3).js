@@ -2,7 +2,7 @@ function mostrar() {
     //tomo la edad  
     var mesDelAño = document.getElementById('mes').value;
 
-    switch (mesDelAño) {
+    switch (mesDelanio) {
 
         case "Febrero":
             alert("este mes no tiene mas de 29 dias");
