@@ -11,8 +11,6 @@ function mostrar() {
 	var promedioposi;
 	var promedionega;
 	var diferencia = 0;
-
-
 	var respuesta = true;
 
 	while (respuesta == true) {

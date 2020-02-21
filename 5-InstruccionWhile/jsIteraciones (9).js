@@ -1,12 +1,12 @@
 function mostrar() {
 
 	var maxx = 0;
-	var minn = 99999999;
+	var minn =99999999999;
 	var numero;
 
 	var respuesta = true;
 
-	while (respuesta == true) {
+	do {
 
 		numero = parseInt(prompt("Ingrese un numero"));
 
@@ -21,6 +21,7 @@ function mostrar() {
 		respuesta = confirm("Desea seguir ingresando numeros?");
 
 	}
+	while (respuesta == true)
 
 	document.getElementById("maximo").value = maxx;
 	document.getElementById("minimo").value = minn;
